@@ -1,0 +1,507 @@
+*{
+		margin: 0px;
+		padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+#zaglavlje nav{
+	background-color: #2a2a2a;
+}
+#zaglavlje li{
+	margin-right: 15px;
+}
+#zaglavlje a{
+	color: #fff;
+	font-size: 100%;
+}
+#zaglavlje a:hover{
+	opacity: 0.6;
+	transition: 0.2s;
+}
+#zaglavlje img{
+	padding-top: 15px;
+}
+#zaglavlje i{
+	padding-top: 13px;
+	color: #fff;
+}
+#zaglavlje ul{
+	height: 70px;
+}
+#zaglavlje li{
+	margin-top: 13px;
+}
+img{
+	max-width: 100%;
+}
+.segment{
+	height: 900px;
+	background-image: url("https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.carousel-inner img {
+		 width: 100%;
+		 height: 90%;
+ }
+ .container p{
+ 	font-style: italic;
+ 	margin-top: 40px;
+ 	padding-bottom: 30px;
+ 	border-bottom: 2px inset;
+ }
+.container {
+	margin-top: 90px;
+}
+.container-fluid{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.column1{
+	width: 49%;
+	height: 400px;
+	background-image: url("http://www.feldkuechencenter.de/wp-content/uploads/2016/08/MVFKN250_01.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.column2{
+	width: 49%;
+	height: 400px;
+	background-image: url("https://spectrum.ieee.org/image/MzE1MzU4NA.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.row1{
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+.row2{
+	margin-top: 400px;
+}
+.column3{
+	width: 49%;
+	height: 400px;
+	background-image: url("https://images.pexels.com/photos/6335/man-coffee-cup-pen.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-position: center;
+}
+.column4{
+	width: 49%;
+	height: 400px;
+	background: #2a2a2a;
+	padding-top: 180px;
+	padding-left: 19%;
+}
+.container-fluid .column1 h4 {
+  position: relative;
+	top: 340px;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 77, 255, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+	padding-right: 0px;
+	padding-bottom: 13px;
+	margin-bottom: 0px;
+}
+.container-fluid .column1 h4:hover{
+	opacity: 0.5;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.container-fluid .column1 a:hover{
+	text-decoration: none;
+}
+.container-fluid .column2 h4 {
+  position: relative;
+	top: 340px;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 77, 255, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+	padding-right: 0px;
+	padding-bottom: 13px;
+	margin-bottom: 0px;
+}
+.container-fluid .column2 h4:hover{
+	opacity: 0.5;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.container-fluid .column2 a:hover{
+	text-decoration: none;
+}
+.container-fluid .column3 h4 {
+  position: relative;
+	top: 340px;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 77, 255, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+	padding-right: 0px;
+	padding-bottom: 13px;
+	margin-bottom: 0px;
+}
+.container-fluid .column3 h4:hover{
+	opacity: 0.5;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.container-fluid .column3 a:hover{
+	text-decoration: none;
+}
+.mat-van{
+  	background-color: #c3c3c3;
+		margin-top: 40px;
+		height: 100px;
+		padding: 30px 0 20px 0;
+}
+#mat-van{
+	padding:0px;
+}
+.row4{
+	width: 100%;
+	height: 210px;
+	margin-top: 40px;
+}
+.android{
+	width: 10%;
+	background-image: url("https://t5.rbxcdn.com/1fcb403e6a73fde60517d8ec8b31de62");
+	background-size: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+}
+.barclays{
+	width: 10%;
+	background-image: url("https://1000logos.net/wp-content/uploads/2016/10/Barclays-Logo.png");
+	background-size: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+.budweiser{
+	width: 10%;
+	background-image: url("https://1000logos.net/wp-content/uploads/2016/10/Budweiser-Logo.png");
+	background-size: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+.polo{
+	width: 10%;
+	background-image: url("https://www.bing.com/th?id=OIP.T0W9gymeyEwGil7wFaHs5gAAAA&pid=Api&w=200&h=200&rs=1");
+	background-size: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+}
+.bt{
+	width: 10%;
+	background-image: url("https://www.wearekura.com/wp-content/uploads/2018/08/BT-Logo.jpg");
+	background-size: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+}
+.adidas{
+	width: 10%;
+	background-image: url("https://i.stack.imgur.com/iMLcu.png");
+	background-size: 100%;
+	height: 210px;
+	background-repeat: no-repeat;
+}
+#mat-van-2{
+	padding: 0px;
+}
+.mat-van-2{
+	width: 100%;
+	height: 100px;
+	background-color: #c3c3c3;
+	padding-top: 35px;
+}
+.fa-arrow-right{
+	padding-right: 40px;
+	margin-left: 40px;
+}
+.button3 button{
+	border-radius: 0px;
+	background-color: #0077ac;
+	color: white;
+	margin-right: 170px;
+	width: 250px;
+}
+.button3 button:hover{
+		transition: 0.5s;
+		background-color: #FFA500;
+}
+.footer-top p{
+	color: #fff;
+	line-height: 25px;
+}
+.footer-top h4{
+	color: #fff;
+}
+.footer-top h4{
+	font-size: 18px;
+}
+.footer-top .row{
+	background: #2a2a2a;
+	width: 100%;
+	margin: 0px;
+}
+.footer-bootom-text{
+	margin-bottom: 0px;
+}
+.footer-top{
+		margin-right: 0px;
+		padding-right: 0px;
+		margin-top: 0px;
+}
+.footer-top .container-fluid{
+	padding: 0px;
+	margin-right: 0px;
+}
+.segment-two{
+	margin-top: 40px;
+}
+.segment-three{
+	margin-top: 40px;
+}
+.segment-four{
+	padding-top: 40px;
+}
+.segment-one{
+	margin-top: 40px;
+}
+.segment-one h4{
+	font-family: sans-serif;<
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+.segment-two h4{
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.segment-two h4:before{
+	content: '|';
+	color: #0077ac;
+	padding-right: 10px;
+}
+.segment-two ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.segment-two ul li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	line-height: 40px;
+}
+.segment-two ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.segment-three ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.segment-three ul li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	line-height: 40px;
+}
+.segment-three ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.segment-two ul li a:hover{
+	color:  #FFA500;
+	text-decoration: underline;
+}
+.segment-three ul li a:hover{
+	color:  #FFA500;
+	text-decoration: underline;
+}
+.segment-three h4{
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.segment-three h4:before{
+	content: '|';
+	color: #0077ac;
+	padding-right: 10px;
+}
+.footer-bootom-text{
+	text-align: center;
+	line-height: 25px;
+	background-color:
+}
+.segment-one h6{
+	margin-top: 20px;
+	line-height: 25px;
+}
+.segment-four{
+	background-color: #0077ac;
+	height: 100%;
+	padding-bottom: 90px;
+}
+.footer-top .fa-phone{
+	padding-bottom: 20px;
+}
+.footer-top .fa-envelope{
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+.segment-four i{
+	color: #fff;
+	padding-right: 15px;
+}
+.footer-top .fa-map-marker{
+	display: inline-flex;
+}
+.footer-top .lokacija{
+	display: inline-flex;
+}
+.footer-top .lokacija p{
+	margin-top: -5px;
+}
+.footer-bootom-text a{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 970px) {
+		.md-mb-30{
+			margin-bottom: 30px;
+		}
+		.segment-four i{
+			color: #fff;
+			padding-right: 0px;
+			padding-bottom: 0px;
+		}
+		.segment-four .email{
+			width: 100%;
+		}
+		.footer-top .fa-envelope{
+			margin-top: 40px;
+			padding-bottom: 0px;
+		}
+}
+@media only screen and (max-width: 768px) {
+.navbar-collapse{
+	height: 450px;
+}
+.btn{
+	width: 100%;
+}
+.button{
+	padding-bottom: 10px;
+}
+.sm-mb-30{
+	margin-bottom: 30px;
+}
+.footer-top{
+	padding: 50px 0;
+}
+.segment-three h4{
+	padding-bottom: 0px;
+}
+.segment-two h4{
+	padding-bottom: 0px;
+}
+.segment-four i{
+	color: #fff;
+	padding-right: 15px;
+}
+.segment-four .email{
+	width: 100%;
+}
+.footer-top .fa-envelope{
+	padding-bottom: 20px;
+	margin-top: 40px;
+}
+.segment-four h4{
+	text-align: center;
+	margin-top: 0px;
+}
+.segment-four{
+	padding-bottom: 0px;
+	padding-top: 20px;
+}
+.footer-top{
+	padding-bottom: 0px;
+}
+.column1{
+	width: 100%;
+}
+.column2{
+	width: 100%;
+}
+.column3{
+	width: 100%;
+}
+.column4{
+	display: none;
+}
+.bt{
+	margin-top: 10px;
+}
+.budweiser{
+	margin-top: 10px;
+}
+.barclays{
+	margin-top: 10px;
+}
+.mat-van-2{
+	background-color: #fff;
+}
+.fa-arrow-right{
+	display: none;
+}
+.mat-van-2 h3{
+	text-align: center;
+}
+.button3 button{
+	margin-right: 0px;
+	width: 100%;
+}
+.mat-van-2{
+	margin-bottom: 100px;
+}
+#mat-van{
+	display: none;
+}
+.row4{
+	height: 50px;
+}
+}
